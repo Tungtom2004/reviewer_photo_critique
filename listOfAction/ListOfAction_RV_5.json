@@ -24485,17 +24485,45 @@
     },
     "action_concat": "Reduce highlights and introduce midtone contrast to restore texture in the grass and cows’ fur.\nUse split toning with warm highlights and cooler shadows to make the monochrome look more dynamic.\nShoot with more directional morning or evening light to create long shadows and visual depth.\nAdjust the composition slightly lower to include more foreground texture, anchoring the scene.\nMaintain a bit of sky detail to retain atmospheric perspective, even in sepia form.\nLower the exposure to prevent washing out sky details.\nEnhance contrast to increase the depth of tones between foreground and background.\n"
   },
+
   {
     "stt": 684,
     "Post_ID": "m25s2a",
     "Image_URL": "https://huggingface.co/datasets/Tungtom2004/OpenImage_top1_final/resolve/main/45337928ea71b5d3__m25s2a_sim_0.765999972820282_5.jpg",
-    "comment": "Error Loading Image",
+    "comment": "This photo is a portrait of a woman posing with her guitar. The subject is slightly centered,and moving her a bit off-center could make the composition more dynamic. The woman appears a bit blurry; using a faster shutter speed or a tripod could help make the image sharper. Increasing the contrast would also help bring out more details in both the guitar and the subject.",
     "extract_action": {
-      "editing_action": [],
-      "shooting_action": []
+      "editing_action": [
+        {
+          "category": "Adjust_contrast",
+          "action": "Increase the contrast to bring out more details in the guitar and the subject.",
+          "is_explicit": true,
+          "reasoning": "Increasing contrast is explicitly recommended to enhance detail visibility in the image."
+        }
+      ],
+      "shooting_action": [
+        {
+          "category": "Composition",
+          "action": "Move the subject off-center to create a more dynamic composition.",
+          "is_explicit": true,
+          "reasoning": "The suggestion to move the subject off-center is explicitly stated to enhance the composition's dynamism."
+        },
+        {
+          "category": "Support equipment",
+          "action": "Use a tripod to make the image sharper.",
+          "is_explicit": true,
+          "reasoning": "Using a tripod is explicitly suggested to stabilize the camera and improve image sharpness."
+        },
+        {
+          "category": "Exposure",
+          "action": "Use a faster shutter speed to make the image sharper.",
+          "is_explicit": true,
+          "reasoning": "The suggestion to use a faster shutter speed is explicitly stated to reduce blur and enhance sharpness."
+        }
+      ]
     },
-    "action_concat": ""
+    "action_concat": "Move the subject off-center to create a more dynamic composition.\nUse a faster shutter speed or a tripod to make the image sharper.\nIncrease the contrast to bring out more details in the guitar and the subject.\n"
   },
+  
   {
     "stt": 685,
     "Post_ID": "kw9fgh",
